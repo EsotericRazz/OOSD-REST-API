@@ -1,4 +1,4 @@
-package team.one.teamonejsp;
+package team.one.teamonerest.filters;
 
 import jakarta.ws.rs.container.ContainerRequestContext;
 import jakarta.ws.rs.container.ContainerResponseContext;

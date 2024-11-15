@@ -5,7 +5,7 @@
              version="3.2">
     <persistence-unit name="default">
         <!--Where to find entities-->
-        <class>team.one.teamonejsp.models.Reward</class>
+        <class>team.one.teamonerest.models.Reward</class>
         <!--Credentials to access database-->
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>

@@ -1,4 +1,4 @@
-package team.one.teamonejsp;
+package team.one.teamonerest;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -8,7 +8,7 @@ import jakarta.persistence.Persistence;
 import jakarta.persistence.Query;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
-import team.one.teamonejsp.models.Reward;
+import team.one.teamonerest.models.Reward;
 
 import java.lang.reflect.Type;
 import java.sql.DriverManager;
