@@ -44,6 +44,12 @@ public class RewardResources {
         }
     }
 
+    /**
+     * Retrieve a reward by ID.
+     *
+     * @param rewardId ID of the reward to retrieve
+     * @return The reward with the given ID
+     */
     @Path("get/{rewardId}")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
@@ -62,6 +68,12 @@ public class RewardResources {
         }
     }
 
+    /**
+     * Create a new reward.
+     *
+     * @param rewardJson JSON representation of the reward
+     * @return JSON object indicating success and the ID of the newly created reward
+     */
     @Path("post")
     @POST
     @Produces(MediaType.APPLICATION_JSON)
@@ -81,6 +93,12 @@ public class RewardResources {
         }
     }
 
+    /**
+     * Update a reward.
+     *
+     * @param rewardJson JSON representation of the updated reward
+     * @return JSON object indicating success and the updated reward
+     */
     @Path("put")
     @PUT
     @Produces(MediaType.APPLICATION_JSON)
@@ -100,6 +118,12 @@ public class RewardResources {
         }
     }
 
+    /**
+     * Delete a reward by its ID.
+     *
+     * @param rewardId ID of the reward to delete
+     * @return JSON object indicating success or failure
+     */
     @Path("delete/{rewardId}")
     @DELETE
     @Produces(MediaType.APPLICATION_JSON)
