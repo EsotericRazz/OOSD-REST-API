@@ -74,3 +74,10 @@ This project demonstrates API development in a local environment. In a productio
 
 ## Cross-Origin Resource Sharing
 This API includes CORS configuration to allow cross-origin requests, making it suitable for use with separate frontend applications (Web and Android clients).
+
+## Related Projects
+- [Web Client Repository] - Web frontend application
+- [Android Client Repository] - Mobile client application
+
+[Web Client Repository]: https://github.com/EsotericRazz/OOSD-JSP-Webpage
+[Android Client Repository]: https://github.com/EsotericRazz/OOSD-Android-Client
